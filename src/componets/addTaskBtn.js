@@ -5,7 +5,7 @@ function  AddTaskBtn(){
 
     return(
       
-        <div className="w-75 mx-auto d-flex justify-content-center">
+        <div className="w-75 mx-auto d-flex justify-content-center mb-5">
         <input className="w-50" type="text"/>
         <Button variant="success btn-sm ms-5px ">Add Task</Button>
         </div>

@@ -37,7 +37,7 @@ let TaskList= list.map((item)=>( <ListItem key={item.taskId} item={item} />)
    
 )
     return(
-      <div className='w-25 mx-auto mt-250px rounded shadow'>
+      <div className='w-25 mx-auto  rounded shadow' >
         <div className='w-50 mx-auto'>
         <h3 >TO DO LIST </h3>
         </div>
