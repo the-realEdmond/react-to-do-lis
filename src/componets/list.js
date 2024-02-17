@@ -3,8 +3,8 @@ import ListItem from "./listItem";
 function List({listItems,setList}){
 
 
-    let items=listItems.map((item)=>(
-        <ListItem key={item.id} taskName={item.TaskName} isDone={item.isDone}/>
+    let items=listItems.map((item,index)=>(
+        <ListItem key={item.id} index={index} listItems={listItems} setlist={setList} taskName={item.TaskName} isDone={item.isDone}/>
     )
 
     )
