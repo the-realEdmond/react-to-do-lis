@@ -8,7 +8,7 @@ function SearchBar({ listItems, setList }) {
     let [originalList, setOriginalList] = useState(listItems);
     
     function loadSearch(e) {
-        setSearchKey(e.target.value);
+        setSearchKey(e.target.value);// useless comment
 
       
           console.log(e)

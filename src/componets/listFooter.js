@@ -13,7 +13,7 @@ function Listfooter({listItems,setList}){
             ...listItems,
             {
                 "id": lastItemId + 1,
-                "TaskName": newTask,
+                "TaskName": newTask,//useless comment
                 "isDone":false
             }
         ]

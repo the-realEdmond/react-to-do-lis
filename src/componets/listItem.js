@@ -4,6 +4,8 @@ import { faEllipsis, faTrash, faEdit,faClock } from "@fortawesome/free-solid-svg
 
 import { Dropdown } from "react-bootstrap";
 
+
+
 function EditForm({ setIsEditting, listItems, setlist, index }) {
     let [newName, setNewName] = useState('');
 
@@ -11,7 +13,7 @@ function EditForm({ setIsEditting, listItems, setlist, index }) {
         const newList = [...listItems];
         newList[index].TaskName = newName; 
         setlist(newList); 
-        setIsEditting(false); 
+        setIsEditting(false); //useless comment
     }
     return(
         <tr>
@@ -69,7 +71,7 @@ function ListItem ({taskName,isDone,index,listItems,setlist}){
     
     let [isEditting,setIsEditting]=useState(false)
 
-    let button=<FontAwesomeIcon icon={faEllipsis}/>
+
 
     let output;
     
